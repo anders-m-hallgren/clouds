@@ -9,7 +9,7 @@ import {Advisory} from './advisory-schema';
   
 })
 export class AdvisoryComponent {
-  title = 'Cloud Advisories';
+  title = 'Lite hjälp på vägen... hör gärna av dig så berättar jag mer.';
   advisories = HEROES;
   selectedHero: Advisory;
   
