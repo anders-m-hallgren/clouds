@@ -1,0 +1,222 @@
+
+a {
+  /*cursor: pointer;*/
+  cursor: hand;
+}
+
+
+/* items class 
+.advisories {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}*/
+/*
+.advisories li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+*/
+.advisories li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.advisories li.selected:hover {
+  background-color: #BBD8DC;
+  color: white;
+}
+.advisories .text {
+  position: relative;
+  top: -3px;
+}
+
+.advisories {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+
+
+.advisories li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  /*padding: .3em 0;*/
+  height: 1.6em;
+  border-radius: 4px;
+}
+
+.advisories li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.advisories li.selected {
+  background-color: #CFD8DC;
+  color: white;
+}
+
+.advisories li.selected:hover {
+  background-color: #BBD8DC;
+}
+
+.advisories .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0.2em 0.7em;
+  background-color: #4BA92C;
+  line-height: 1em;
+  width: 2em;
+  position: relative;
+  left: -1px;
+  top: 0px;
+  /*height: 1.8em;*/
+  margin-right: .8em;
+  border-radius: 4px 4px 4px 4px;
+}
+
+/* Heroes */
+.selected {
+      background-color: #CFD8DC !important;
+      color: white;
+    }
+    .heroes {
+      margin: 0 0 2em 0;
+      list-style-type: none;
+      padding: 0;
+      width: 12em;
+    }
+    .heroes li {
+      /*font: 1em 'ericssonFont';*/
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      left: 0;
+      background-color: #EEE;
+      margin: .5em;
+      padding: .3em 0;
+      height: 1.6em;
+      border-radius: 4px;
+    }
+    .heroes li.selected:hover {
+      background-color: #BBD8DC !important;
+      color: white;
+    }
+    .heroes li:hover {
+      color: #607D8B;
+      background-color: #DDD;
+      left: .3em;
+    }
+    .heroes .text {
+      position: relative;
+      top: -3px;
+    }
+    .heroes .badge {
+      display: inline-block;
+      font-size: small;
+      color: white;
+      padding: 0.8em 0.7em 0 0.7em;
+      background-color: #4BA92C;
+      line-height: 1em;
+      position: relative;
+      left: -1px;
+      top: -4px;
+      height: 1.8em;
+      margin-right: .8em;
+      border-radius: 4px 0 0 4px;
+    }
+
+    
+/* MY BOX*/
+.clear {
+	clear: both;
+}
+
+.box{
+	border: thin;
+	border-color: Purple;
+	border-style: solid;
+	border-radius: 40px 10px;
+	padding: 5px;
+	margin: 5px;
+	cursor: move;
+  width: 200px;
+	background: linear-gradient(to bottom right, red, yellow)
+}
+
+.box h1{
+	color: white;
+}
+
+.box h2{
+	color: white;
+	/*font: 2em 'ericssonFont';*/
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: move;
+}
+
+.box h3{
+	color: white;
+}
+
+.box p{
+	color: white;
+}
+
+#box3 li{
+	color: white;
+}
+
+#box4 li{
+	color: white;
+}
+
+.float {
+	float: left;
+}
+
+.dropzone {
+    width: 200px;
+    height: 50px;
+    background: #ff8000;
+    margin: 10px;
+    padding: 10px;
+  }
+
+#box1 {
+	background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+}
+
+#box2 {
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
+	
+}
+
+#box3 {
+	background: radial-gradient(ellipse at center, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+}
+
+#box4 {
+	background: radial-gradient(ellipse at center, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+}
+
+#box5 {
+	background-color: maroon;
+}
+
+#box6 {
+	background: radial-gradient(ellipse at center, #b1c7d8 0%,#8385c6 18%,#5154ad 34%,#13008e 67%,#080068 84%,#000c28 100%);
+}

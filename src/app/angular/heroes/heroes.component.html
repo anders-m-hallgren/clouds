@@ -1,0 +1,11 @@
+<toh-hero [hero]="selectedHero"></toh-hero>
+<ul class='heroes'>
+    <li [tooltip]="dummyTooltip" *ngFor="let hero of items | async"
+        (click)="onSelect(hero)"
+        [class.selected]="hero===selectedHero"
+    >
+        <span class='badge'> {{hero.id}}</span>
+        {{hero.name}}
+    </li>
+</ul>
+<div>defined msg={{message}}</div>

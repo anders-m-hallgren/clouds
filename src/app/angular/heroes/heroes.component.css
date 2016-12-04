@@ -1,0 +1,124 @@
+:root { 
+    font-family: 'Poiret One', 'Rock Salt', cursive;
+}
+
+input{
+    color: #080068;
+    font-family: 'Poiret One', 'Rock Salt', cursive;
+}
+/* MY BOX*/
+.clear {
+	clear: both;
+}
+
+.box{
+    position: absolute;
+    /*float:left;*/
+    top: 220px;
+    left: 40%;
+    /*text-decoration:none;*/
+    /*overflow: hidden;*/
+	padding: 5px;
+	margin: 5px;
+	cursor: move;
+    height:400px;
+    width: 500px;
+    color: white;
+    border-radius: 8px;
+}
+
+.box h1{
+	color: white;
+}
+
+.box h2{
+	color: white;
+	/*font: 2em 'ericssonFont';*/
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: move;
+}
+
+.box h3{
+	color: white;
+}
+
+.box p{
+	color: white;
+}
+
+#box6 {
+	background: radial-gradient(ellipse at center, #b1c7d8 0%,#8385c6 18%,#5154ad 34%,#13008e 67%,#080068 84%,#000c28 100%);
+}
+
+h2, h3 { 
+  color: #444;
+  font: 2em 'Poiret One';  
+  font-weight: lighter;
+}
+
+body, input[text], button { 
+  color: #888; 
+  /*font-family: Cambria, Georgia; */
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.heroes .text{
+    position: relative;
+    top: -3px;
+}
+
+/* Heroes */
+.selected {
+      background-color: #CFD8DC !important;
+      color: white;
+    }
+    .heroes {
+      margin: 0 0 2em 0;
+      list-style-type: none;
+      padding: 0;
+      width: 12em;
+    }
+    .heroes li {
+      /*font: 1em 'ericssonFont';*/
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      left: 0;
+      background-color: #EEE;
+      margin: .5em;
+      padding: .3em 0;
+      height: 1.6em;
+      border-radius: 4px;
+    }
+    .heroes li.selected:hover {
+      background-color: #BBD8DC !important;
+      color: white;
+    }
+    .heroes li:hover {
+      color: #607D8B;
+      background-color: #DDD;
+      left: .3em;
+    }
+    .heroes .text {
+      position: relative;
+      top: -3px;
+    }
+    .heroes .badge {
+      display: inline-block;
+      font-size: small;
+      color: white;
+      padding: 0.8em 0.7em 0 0.7em;
+      /*background-color: #4BA92C;*/
+      background-color: #a62e5c;
+      line-height: 1em;
+      position: relative;
+      left: -1px;
+      top: -4px;
+      height: 1.6em;
+      margin-right: .8em;
+      border-radius: 4px 0 0 4px;
+    

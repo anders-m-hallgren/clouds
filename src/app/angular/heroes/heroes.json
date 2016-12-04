@@ -1,0 +1,17 @@
+[
+    { 
+        "id": "11",
+        "name": "superman",
+        "tooltipText": "men va stark"
+    },
+    { 
+        "id": "12",
+        "name": "batman",
+        "tooltipText": "batmobil behöver han"
+    },
+    { 
+        "id": "13",
+        "name": "spiderman",
+        "tooltipText": "spindelkänsla har han"
+    }
+]

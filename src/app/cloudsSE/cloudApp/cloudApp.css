@@ -1,0 +1,12 @@
+
+.box{
+	border: thin;
+	border-color: Purple;
+	border-style: solid;
+	border-radius: 40px 10px;
+	padding: 5px;
+	margin: 5px;
+	cursor: move;
+  /*width: 200px;*/
+	background: linear-gradient(to bottom right, red, yellow)
+}

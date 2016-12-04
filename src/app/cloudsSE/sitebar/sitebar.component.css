@@ -1,0 +1,76 @@
+        
+#sitebar {
+            height: 120px;
+            background: radial-gradient(ellipse at center, #b1c7d8 0%, #8385c6 18%, #5154ad 34%, #13008e 67%, #080068 84%, #000c28 100%);
+            /*font-size: 40px;*/
+            color: #fbf;
+            text-align: center;
+            /*line-height: 2;*/
+            position: fixed;
+            width: 100%;
+            z-index: 20;
+            margin-bottom: 10px;
+            /*transition: 2s height;*/
+            /*transition: 2s font-size;*/
+        }
+        
+        .cloudflyin {
+            list-style: none;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            opacity: 1;
+            transform: translate(-50%, -50%);
+        }
+        
+        .cloudflyin li {
+            color: white;
+            display: inline-block;
+            font-size: 60px;
+            font-weight: 900;
+            transition: all 2.5s ease;
+        }
+        
+        .cloudflyin li:last-child() {
+            margin-right: 0px;
+        }
+        
+        .cloudflyin.hidden li {
+            opacity: 1;
+        }
+        
+        .hidden li:nth-child(1) {
+            color: blue;
+            transform: translate(200px, -100px);
+        }
+        
+        .hidden li:nth-child(2) {
+            color: black;
+            transform: translate(150px, 100px);
+        }
+        
+        .hidden li:nth-child(3) {
+            color: yellow;
+            transform: translate(20px, -200px);
+        }
+        
+        .hidden li:nth-child(4) {
+            color: orange;
+            transform: translate(-100px, 100px);
+        }
+        
+        .hidden li:nth-child(5) {
+            color: purple;
+            transform: translate(-250px, -150px);
+        }
+        
+        .hidden li:nth-child(6) {
+            color: green;
+            transform: translate(-100px, 150px);
+        }
+        
+        .hidden li:nth-child(7) {
+            color: grey;
+            transform: translate(-200px, -100px);
+        }
+        

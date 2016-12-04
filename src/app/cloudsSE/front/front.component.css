@@ -1,0 +1,37 @@
+#content{   
+    position: relative;
+    top: 5rem;
+    z-index: 12;
+    margin-left: 10px;
+}
+
+#email{   
+    /*position: relative;
+    top: -3.5rem;
+    z-index: 12;
+    margin-left: 320px;*/
+}
+a #email:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+#content1-msg{
+    background: radial-gradient(ellipse at center, #b1c7d8 0%,#8385c6 18%,#5154ad 34%,#13008e 67%,#080068 84%,#000c28 100%);
+    color: #fff;
+    /*height:60px;*/
+    /*position: relative;*/
+    top: 5rem;
+
+    /*font-weight: 300;*/
+    font-size: 25px;
+    /*text-align: center;*/
+    /*overflow: inherit;*/
+   /* z-index: 12;*/
+}
+
+#funderingar:hover{
+
+    cursor: cell;
+}

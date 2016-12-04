@@ -1,0 +1,113 @@
+
+@keyframes rotate{
+        0%   { transform: rotateZ(45deg) rotateX(0deg)    rotateY(0deg);    }
+        25%   { transform: rotateZ(45deg);    }
+        50%   { transform: rotateX(45deg)    rotateY(45deg);    }
+        75%   { transform: rotateZ(90deg) rotateX(90deg)    rotateY(90deg);    }
+        100% { transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg);  }
+}
+@keyframes spin{
+        0%   { transform: rotateZ(5deg);    }
+        
+        100% { transform: rotateZ(360deg);  }
+}
+@keyframes rotate-reverse{
+        100%   { transform: rotate(0deg);    }
+}
+
+@keyframes moveHome{
+        0% {left:1em;}
+        100% {left:19.5em;}
+}
+@keyframes moveUp{
+        0% {bottom:1em;}
+        100% {bottom:6.5em;}
+}
+
+@keyframes moveSearch{
+        0% {left:1em;}
+        100% {left:13em;}
+}
+
+/*start navbar*/
+.fa {
+  color: white;   
+}
+
+div#clouds {
+    /*background: url('assets/images/clouds.jpg') no-repeat;*/
+    position: fixed;
+    left:20px;
+    top: 2%;
+    /*width: 100%;
+    height: 100%;*/
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    z-index: 100;
+    
+}
+
+div#clouds > ul {
+    font-size: 20%;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    list-style: none;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 100;
+    animation:spin 4s infinite;
+    animation-play-state: running;
+    
+}
+div#clouds>ul:hover{
+    animation-play-state: paused;
+}
+
+div#clouds > ul > li {
+    display:block;
+    position: absolute;
+    border-radius: 100%;
+    border: solid;
+    width:35px;
+    height:35px;
+    transform: rotate(-45deg);
+    margin: 10px;
+}
+div#clouds > ul > li > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s line-height;
+    
+} 
+
+div#clouds > ul > li:nth-child(1){ 
+    top:0px;
+    left:0px;
+}
+div#clouds > ul > li:nth-child(2){
+    right:0px;
+    top: 0px;
+}
+div#clouds > ul > li:nth-child(2):hover{
+    animation-play-state: running;
+}
+
+div#clouds > ul > li:nth-child(3){
+    bottom:0px;
+    left:0px;
+}
+div#clouds > ul > li:nth-child(4){
+    bottom: 0px;
+    right:0px;
+}
+
+div#clouds > ul > li > a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 0;
+
+}

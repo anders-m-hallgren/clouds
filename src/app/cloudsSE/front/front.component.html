@@ -1,0 +1,41 @@
+<sitebar></sitebar>
+<navspinner></navspinner>
+<div id="content">
+  <app-title [title]="title"></app-title>
+  <div id="funderingar">
+    <ul>
+      <li *ngFor="let fundering of funderingar" [@contentState]="fundering.state" (click)="toggleState(fundering)">
+        {{fundering.text}}
+      </li>
+    </ul>
+  </div>
+  <app-subtitle [subtitle]="subtitle">
+    
+  </app-subtitle>
+  
+  <carousel-app>digital transformation...</carousel-app>
+  
+
+  <cloudApp></cloudApp>
+
+  <img src="./images/clouds.jpg">
+  <!-- http://localhost:4200/app/cloudsSE/carousel/images/Slide1.jpg -->
+
+  <!--script src="clouds.js"></script-->
+  <!--
+<app-home></app-home>
+-->
+
+  <div id="content1">
+
+    <ul>
+      <li id="content1-msg" *ngFor="let content of contents" [@flyInOut]="content.state" (click)="toggleContentState(content)">
+        {{content.text}}
+      </li>
+    </ul>
+  </div>
+
+</div>
+<!--
+<app-contact></app-contact>
+-->
