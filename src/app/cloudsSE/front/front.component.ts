@@ -76,11 +76,10 @@ export class FrontComponent {
     { "text": "Hur ska dina medarbetare ta åt sig av den nya tekniken?", "state": "inactive" },
     { "text": "Hur ska jag förbereda mig för att göra rätt val av tjänst och partner?", "state": "inactive" },
     { "text": "Hur kan jag kontinuerligt få svar om effekter av hypoteser på min verksamhet?", "state": "inactive" },
-    { "text": "Hur kan jag säkerställa en långsiktig anpassning till förändringar?", "state": "inactive" }
+    { "text": "Hur kan jag säkerställa en långsiktig anpassning till förändringar?", "state": "inactive" },
+    { "text": 'Hur långt har organisationen kommit på moln resan och via vilka delmål är den på väg.', "state": "in" }
   ];
   contents: Content[] = [
-    { "text": 'Hur långt har organisationen kommit på moln resan och via vilka delmål är den på väg.', "state": "in" },
-    { "text": 'Expert hjälp för moln resan', "state": "in" },
     { "text": 'Denna sida är byggd med Angular 2 och körs på AWS', "state": "in" },
     { "text": 'Källkoden finns på github', "state": "in" }
 

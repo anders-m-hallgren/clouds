@@ -4,7 +4,7 @@
   <app-title [title]="title"></app-title>
   <div id="funderingar">
     <ul>
-      <li *ngFor="let fundering of funderingar" [@contentState]="fundering.state" (click)="toggleState(fundering)">
+      <li style="list-style-type: hiragana;" *ngFor="let fundering of funderingar" [@contentState]="fundering.state" (click)="toggleState(fundering)">
         {{fundering.text}}
       </li>
     </ul>

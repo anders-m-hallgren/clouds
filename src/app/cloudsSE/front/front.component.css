@@ -5,6 +5,11 @@
     margin-left: 10px;
 }
 
+#funderingar{
+    list-style-type: square;
+    color: darkblue;
+}
+
 #email{   
     /*position: relative;
     top: -3.5rem;
