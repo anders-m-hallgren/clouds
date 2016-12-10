@@ -29,13 +29,13 @@ export class Carousel  {
 
     private addNewSlide() {
          this.slides.push(
-            {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide1.jpg',text:'digital transformation'},
+            //{image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide1.jpg',text:'digital transformation'},
             {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide2.jpg',text:'digital crossroad'},
             {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide3.jpg',text:'digital needs'},
             {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide4.jpg',text:'4'},
             {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide5.jpg',text:'5'},
             {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide6.jpg',text:'6'},
-            {image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide7.jpg',text:'7'}
+            //{image:'https://s3.eu-central-1.amazonaws.com/clouds-images/slides/Slide7.jpg',text:'7'}
         );
     }
 }
